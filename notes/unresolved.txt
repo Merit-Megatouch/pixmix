@@ -3,64 +3,6 @@
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
 GetLocation(unsigned char, char (&) [255]) | pixmix.so
-SeniorsHelp(int, bool) | pixmix.so
 megaend() | pixmix.so
 megastart(char const*, app_common::args_t*) | pixmix.so
 VideoClass::Box(int, int, int, int) | pixmix.so
-WorldClass::PlayMovie(int, unsigned long, void (*)(unsigned char), unsigned char, bool, bool, bool, bool) | pixmix.so
-WorldClass::WorldClass() | pixmix.so
-db_gamedata::gamedata_record::gamedata_record(db_gamedata::gamedata_record const&) | pixmix.so
-db_gamedata::gamedata_record::gamedata_record() | pixmix.so
-db_gamedata::gamedata_record::~gamedata_record() | pixmix.so
-xml_gameinfo::enum_GameIds_tag(xml_gameinfo::GameIds, bool) | libcontent.so
-ChainRestClass::GetPicFileName(xml_gameinfo::GameIds, int) | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::AdjustTime(int, long) | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::copy(abstract_record const*) | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::AddChild(abstract_xml_record*, char const*, unsigned int) | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::NewChild(char*) | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::GameSettingsPixMix_record() | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::~GameSettingsPixMix_record() | pixmix.so
-RandomizedArrayClass::SetBookMark(unsigned char) | pixmix.so
-RandomizedArrayClass::GetNextValue(int) | pixmix.so
-RandomizedArrayClass::GotoBookMark(unsigned char) | pixmix.so
-RandomizedArrayClass::RandomizedArrayClass(xml_gamerandom::PICRAND_record*, int, unsigned char, unsigned short*) | pixmix.so
-RandomizedArrayClass::~RandomizedArrayClass() | pixmix.so
-Bitmap::CopyFromScreen(int, int, bool) | pixmix.so
-Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | pixmix.so
-Bitmap::CreateColoredTextBoxTTF(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | pixmix.so
-Bitmap::CreateColoredTextBoxTTFS(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | pixmix.so
-Bitmap::Clear() | pixmix.so
-Bitmap::Colorize(int, int, int) | pixmix.so
-Bitmap::LoadJPEG(char*, int, int, unsigned char) | pixmix.so
-Bitmap::LoadSmack(char*, unsigned char, unsigned char) | pixmix.so
-Bitmap::ScaleInto(Bitmap*, int, int, unsigned char) | pixmix.so
-Settings::Init() | libcontent.so
-Settings::Init() | pixmix.so
-Settings::Load() | libcontent.so
-Settings::Load() | pixmix.so
-Settings::Cleanup() | libcontent.so
-Settings::Cleanup() | pixmix.so
-Settings::Restore(abstract_xml_record const*) | libcontent.so
-Settings::Restore(abstract_xml_record const*) | pixmix.so
-Settings::SaveNow() | libcontent.so
-Settings::Settings(char const*, unsigned int) | libcontent.so
-Settings::Settings(char const*, unsigned int) | pixmix.so
-Settings::~Settings() | libcontent.so
-Settings::~Settings() | pixmix.so
-TextUtils::VPatch(char*, int, char const*, char const*, ...) | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::ChildCount() const | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::GetChildren() const | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::cTag() const | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::eTag() const | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::clone() const | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::equal(abstract_record const*) const | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::Metadata() const | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::ChildName(int) const | pixmix.so
-xml_gamerandom::GameSettingsPixMix_record::not_equal(abstract_record const*) const | pixmix.so
-Settings::Key(unsigned int, bool) const | libcontent.so
-Settings::Key(unsigned int, bool) const | pixmix.so
-typeinfo for Settings | libcontent.so
-typeinfo for Settings | pixmix.so
-typeinfo for xml_gamerandom::GameSettingsPixMix_record | pixmix.so
-vtable for DOSLinuxWorld | pixmix.so
-set_mouse_sprite | pixmix.so
